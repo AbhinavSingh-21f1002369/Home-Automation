@@ -4,4 +4,4 @@ services:
     device-registry:
         build: .
         volumes:
-            - ./usr/src/app
+            - .:/usr/src/app
